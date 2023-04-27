@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 
-ENV PRODUCT_VERSION=7.2.2 \
-    BUILD_NUMBER=56
+ENV PRODUCT_VERSION=7.3.3 \
+    BUILD_NUMBER=60
 
 COPY *.sh /usr/local/bin/
 RUN apt-get update && \
